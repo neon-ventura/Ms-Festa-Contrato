@@ -1,0 +1,72 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+}
+
+form {
+    width: 600px;
+}
+
+.client, .address, .fone, .district, .date {
+    padding: 10px;
+}
+
+label {
+    padding: 0px 5px;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 3px 0;
+}
+
+.client-input {
+    width: 500px;
+}
+
+.address-input {
+    width: 350px;
+}
+
+.number-input {
+    width: 104px;
+    text-align: center;
+}
+
+.fone-input {
+    width: 490px;
+}
+
+.district-input {
+    width: 296px;
+}
+
+.paragrapth-rental-value {
+    padding-bottom: 20px;
+}
+
+.rental-value {
+    width: 410px;
+}
+
+.total-value, .input-value, .sub-total {
+    width: 40px;
+}
+
+.btn-print {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.423);
+    border: none;
+    cursor: pointer;
+}
